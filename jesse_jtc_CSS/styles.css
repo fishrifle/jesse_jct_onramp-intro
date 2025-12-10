@@ -1,0 +1,52 @@
+* {
+    background: black;
+}
+
+
+
+.h1 {
+    text-align: center;
+    font-weight: 700;
+    color: rgb(184, 223, 10);
+    font-size: 5rem;
+}
+
+.h2 {
+    text-align: center;
+     font-weight: 900;
+    color: rgba(13, 48, 248, 0.836);
+    font-size: 4rem;
+
+
+}
+
+.p1 {
+     text-align: center;
+     font-weight: 700;
+    color: rgba(224, 210, 6, 0.973);
+    font-size: 2rem;
+}
+
+.p2 {
+     text-align: center;
+     font-weight: 700;
+    color: rgba(7, 50, 168, 0.973);
+    font-size: 2rem;
+}
+
+.p3 {
+     text-align: center;
+     font-weight: 700;
+    color: rgba(202, 223, 15, 0.973);
+    font-size: 2rem;
+}
+
+.main {
+    background-color: black;
+}
+
+.image {
+    width: 45vw;
+    height: 25rem;
+}
+
