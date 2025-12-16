@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-size: 50px;
+    color: orangered
+   
+
+}
+.box-one {
+    box-sizing: content-box;
+    width: 900px;
+    height: 500px;
+    border: 35px black solid;
+    padding: 50px;
+    margin: 5px;
+
+}
+
+.box-two {
+    box-sizing: border-box;
+    width: 900px;
+    height: 500px;
+    border: 35px red solid;
+    padding: 50px;
+    margin: 5px
+    
+}
+
+.point-one {
+    font-size: 30px;
+    color: deeppink
+}
+
+.point-two {
+    font-size: 25px;
+    color: purple
+}
+
+.point-three {
+    font-size: 20px;
+    color: darkblue
+}
+
+.point-four {
+    font-size: 15px;
+    color: green
+}
