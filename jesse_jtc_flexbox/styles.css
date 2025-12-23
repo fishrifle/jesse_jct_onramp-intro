@@ -1,29 +1,27 @@
-.container {
-  background: rgb(94, 3, 112);
-  border: 4px solid rgb(235, 10, 104);
-  height: 900px;
-  width: 900px;
+.navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding: 1rem 2rem;
+  background-color: #111;
 }
 
-.one {
-  background-color: rgb(57, 250, 240);
-  border: 4px solid rgb(236, 9, 9);
-  height: 33vh;
-  width: 33vw;
+.logo {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
-.two {
-  background-color: rgb(41, 219, 6);
-  border: 4px solid rgb(188, 228, 13);
-  height: 33vh;
-  width: 33vw;
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
 }
-.three {
-  background-color: rgb(16, 58, 150);
-  border: 4px solid rgb(231, 135, 9);
-  height: 33vh;
-  width: 33vw;
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
 }
