@@ -1,0 +1,16 @@
+.box {
+    display: grid;
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    grid-template-columns: repeat(2rem);
+    grid-template-rows: repeat(2rem);
+    /* align-items: center; */
+}
+
+.text {
+    display: flex;
+    /* text-align: center; */
+    /* justify-content: center; */
+    position: sticky;
+}
