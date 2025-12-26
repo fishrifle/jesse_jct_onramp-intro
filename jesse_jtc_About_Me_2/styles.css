@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1f2937;
+    color: white;
+    padding: 20px 100px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1f2937;
+    padding: 100px;
+    gap: 50px;
+}
+
+.hero-text h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.hero-text p {
+    color: #e5e7eb;
+    margin: 20px 0;
+}
+
+.hero-text button {
+    background: #3882f6;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 6px;
+}
+
+.hero-image {
+    background: #6b7280;
+    color: white;
+    padding: 80px;
+    text-align: center;
+}
+
+/* INFO */
+.info {
+    padding: 60px 100px;
+    text-align: center;
+}
+
+.info h2 {
+    margin-bottom: 40px;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card {
+    width: 150px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+/* QUOTE */
+.quote {
+    background: #e5e7eb;
+    padding: 80px 150px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* CTA */
+.cta {
+    padding: 80px 100px;
+}
+
+.cta-box {
+    background: #3882f6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 60px;
+    border-radius: 8px;
+}
+
+.cta-button {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 6px;
+}
+
+/* FOOTER */
+.footer {
+    background: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
