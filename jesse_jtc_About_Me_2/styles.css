@@ -37,9 +37,10 @@
 }
 
 .hero-text h1 {
-    color: white;
+    color: #d1d5db;
     font-size: 48px;
     font-weight: 800;
+    max-width: 50ch;
 }
 
 .hero-text p {
